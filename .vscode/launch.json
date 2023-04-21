@@ -10,6 +10,7 @@
             "request": "launch",
             "module": "analytics_flow",
             "justMyCode": true
+            
         }
     ]
 }
