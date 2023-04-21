@@ -6,8 +6,6 @@
 If you need assistance in doing so, please reach contato.leonardohss@gmail.com
 
 
-
-
 ### Checklist
 
 - [ ] Ensure changes are being done following agreed and compliant design.

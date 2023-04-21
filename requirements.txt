@@ -6,3 +6,4 @@ psycopg2==2.9.6
 psycopg2_binary==2.9.6
 SQLAlchemy==1.4.39
 tqdm==4.64.1
+

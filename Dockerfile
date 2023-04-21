@@ -14,6 +14,7 @@ COPY ./requirements.txt ./
 RUN pip3 install --upgrade pip
 RUN pip3 --no-cache-dir install -r requirements.txt
 
+
 WORKDIR /
 COPY ./ /
 EXPOSE 9000

@@ -7,6 +7,7 @@ import base64
 from botocore.exceptions import ClientError
 from analytics_flow.resources.configs import AWS_ACCESS_ID, AWS_ACCESS_KEY
 
+
 def getSecret(secret):
 
     secret_name = secret
