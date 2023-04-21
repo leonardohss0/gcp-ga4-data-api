@@ -12,18 +12,16 @@ This project aims to extract data from Google Analytics 4 API and process it to 
 
 3. Set up your environment variables in the .env file using the .env.example file as a template.
 
-4. Install the required Python packages by running the following command in the terminal:
-
-`pip install -r requirements.txt`
+4. Install the required Python packages by running the following command in the terminal: `pip install -r requirements.txt`
 
 ## Folder Structure
 The project follows the following folder structure:
  
 gcp-ga4-data-api/ <br>
 ├── analytics_flow/ <br>
-  ── resources/ <br>
-  ── secrets/ <br>
-  ── utils/ <br>
+│ ├── resources/
+│ ├── secrets/
+│ └── utils/
 ├── db/ <br>
 ├── .dockerignore <br>
 ├── Dockerfile<br>
