@@ -1,4 +1,4 @@
-# Google Analytics 4 API Data Extraction and Processing in Batch.
+# Google Analytics 4 API Data Extraction and Processing
 Keywords: Python, AWS, GCP, Google Cloud, AWS S3, Data Lake, AWS RDS, ETL, Postgresql, Docker, Github Actions, AWS ECS, AWS ECR.
 
 
