@@ -19,9 +19,9 @@ The project follows the following folder structure:
  
 gcp-ga4-data-api/ <br>
 ├── analytics_flow/ <br>
-│ ├── resources/
-│ ├── secrets/
-│ └── utils/
+│ ├── resources/ <br>
+│ ├── secrets/ <br>
+│ └── utils/ <br>
 ├── db/ <br>
 ├── .dockerignore <br>
 ├── Dockerfile<br>
