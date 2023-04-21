@@ -1,0 +1,52 @@
+  {
+    "executionRoleArn": "arn:aws:iam::490739040942:role/ecsTaskExecutionRole",
+  "containerDefinitions": [
+    {
+     
+      "logConfiguration": {
+        "logDriver": "awslogs",
+        "options": {
+          "awslogs-group": "/ecs/ecs-task-definition",
+          "awslogs-region": "us-east-2",
+          "awslogs-stream-prefix": "ecs"
+        }
+      },
+      "image": "864500937691.dkr.ecr.us-east-2.amazonaws.com/leonardo-sanches-ecs",
+      "name": "google_analytics"
+    }
+  ],
+  "memory": "3072",
+  "compatibilities": [
+    "EC2"
+  ],
+  "family": "ecs-task-definition",
+  "requiresAttributes": [
+    {
+      "name": "com.amazonaws.ecs.capability.logging-driver.awslogs"
+    },
+    {
+      "name": "ecs.capability.execution-role-awslogs"
+    },
+    {
+      "name": "com.amazonaws.ecs.capability.ecr-auth"
+    },
+    {
+      "name": "com.amazonaws.ecs.capability.docker-remote-api.1.19"
+    },
+    {
+      "name": "ecs.capability.execution-role-ecr-pull"
+    },
+    {
+      "name": "com.amazonaws.ecs.capability.docker-remote-api.1.18"
+    },
+    {
+      "name": "ecs.capability.task-eni"
+    }
+  ],
+  "requiresCompatibilities": [
+    "EC2"
+  ],
+  "networkMode": "awsvpc",
+  "cpu": "1024",
+  "status": "ACTIVE"
+}
