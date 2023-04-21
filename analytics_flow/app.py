@@ -17,7 +17,6 @@ from google.analytics.data_v1beta import BetaAnalyticsDataClient
 def main():
 
   tempo_inicial = time.time()
-
   warnings.filterwarnings("ignore")
 
   ## --- AUTHORIZATION --- ##
